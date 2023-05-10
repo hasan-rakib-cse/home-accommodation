@@ -1,0 +1,207 @@
+@media screen and (max-width: 991px) {
+    nav.navigation {
+        border-radius: 0 0 6px 6px;
+    }
+
+    #toggle {
+        display: block;
+        cursor: pointer;
+        z-index: 200;
+    }
+
+    ul.menu-ul {
+        position: fixed;
+        right: 0;
+        top: 55px;
+        width: 250px;
+        height: 100vh;
+        padding: 10px 0;
+        margin-right: -270px;
+        display: block;
+        border-radius: 4px;
+        transition: .3s;
+    }
+
+    ul.menu-ul.active {
+        margin-right: -6px;
+        background: #fff;
+    }
+
+    ul.right-ul {
+        display: none;
+    }
+
+    .work-section .work-header p {
+        width: 80%;
+    }
+
+    .work-section .box {
+        padding-bottom: 25px;
+    }
+
+    .feature-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .feature-header h2 {
+        margin-bottom: 16px;
+    }
+
+    .fe-header-left {
+        margin-bottom: 20px;
+    }
+
+    .achievement-section .building-find-sec {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .achievement-section .ach-sec-right {
+        align-items: center;
+    }
+
+    .achievement-section .ach-sec-right h3 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .achievement-section .ach-sec-right p {
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .achievement-section .ach-sec-right img{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .achievement-section .box {
+        padding: 30px 0;
+    }
+
+    .achievement-section .box h1 {
+        font-size: 48px;
+    }
+
+    .achievement-section .box p {
+        font-size: 16px;
+    }
+
+    .achievement-section .box span {
+        font-size: 48px;
+    }
+
+    .achievement-section .achievement-counter:last-child .box {
+        padding-bottom: 0;
+    }
+
+    .achievement-section .customer-view-sec {
+        left: 35px;
+        width: 240px;
+        height: 250px;
+    }
+
+    .property-section .property-text-sec {
+        align-items: center;
+    }
+
+    .property-section .property-left-sec {
+        padding-left: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .property-section .feature-right-sec {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        height: auto;
+    }
+
+    .banner-text-area {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .banner-image {
+        text-align: center;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .review-row {
+        display: unset;
+        text-align: center;
+    }
+
+    ul.rv-star {
+        justify-content: center;
+    }
+
+    .work-section .work-header p {
+        width: 100%;
+    }
+
+    .work-section .guideline-btn a {
+        width: 100%;
+    }
+
+    .achievement-section .customer-view-sec {
+        left: -38px;
+        width: 230px;
+        height: 240px;
+    }
+
+    .achievement-section .box {
+        padding: 20px 0;
+    }
+
+    .achievement-section .box h1 {
+        font-size: 38px;
+    }
+
+    .achievement-section .box span {
+        font-size: 38px;
+    }
+
+    .achievement-section .ach-sec-right h3 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .achievement-section .box p {
+        padding-top: 0;
+    }
+
+    footer .footer-2 .copyright-sec {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .achievement-section .customer-view-sec {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .achievement-section .building-find-sec img {
+        width: 100%;
+    }
+}
